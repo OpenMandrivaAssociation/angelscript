@@ -1,18 +1,18 @@
-%define major	23501
+%define major	23600
 %define libname	%mklibname %{name} %{major}
 %define devname	%mklibname %{name} -d
 
 %global _vpath_srcdir	sdk/%{name}/projects/meson/
 
 Name:		angelscript
-Version:	2.35.1
-Release:	%mkrel 1
+Version:	2.36.0
+Release:	1
 Summary:	Scripting library
 License:	zlib
 Group:		System/Libraries
 URL:		https://www.angelcode.com/angelscript/
 Source0:	http://www.angelcode.com/angelscript/sdk/files/%{name}_%{version}.zip
-BuildRequires:	gcc-c++
+
 BuildRequires:	meson
 
 %description
