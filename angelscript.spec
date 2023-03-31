@@ -6,7 +6,7 @@
 
 Name:		angelscript
 Version:	2.36.0
-Release:	1
+Release:	2
 Summary:	Scripting library
 License:	zlib
 Group:		System/Libraries
