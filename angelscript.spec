@@ -1,12 +1,12 @@
-%define major	23600
-%define libname	%mklibname %{name} %{major}
+%define major	%(echo %{version}|sed -e 's,\\.,,'|sed -e 's,\\.,0,')
+%define libname	%mklibname %{name}
 %define devname	%mklibname %{name} -d
 
 %global _vpath_srcdir	sdk/%{name}/projects/meson/
 
 Name:		angelscript
-Version:	2.36.0
-Release:	2
+Version:	2.36.1
+Release:	1
 Summary:	Scripting library
 License:	zlib
 Group:		System/Libraries
