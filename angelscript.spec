@@ -5,7 +5,7 @@
 %global _vpath_srcdir	sdk/%{name}/projects/meson/
 
 Name:		angelscript
-Version:	2.36.1
+Version:	2.37.0
 Release:	1
 Summary:	Scripting library
 License:	zlib
